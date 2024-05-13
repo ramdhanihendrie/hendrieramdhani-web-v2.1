@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+button, input, optgroup, select, textarea {
+  @apply !h-10 !min-h-10;
+}
+
+.alert-info {
+  @apply bg-sky-200 text-sky-600 font-medium;
+}
+
+.alert-error {
+  @apply bg-red-200 text-red-600 font-medium;
+}
+
+.alert-warning {
+  @apply bg-orange-200 text-orange-600 font-medium;
+}
